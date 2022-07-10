@@ -62,6 +62,7 @@ static void handleOperator(struct Stack *operatorStack, struct LinkedList *outLi
 }
 
 
+
 static void handleBracket(struct Stack *operatorStack, struct LinkedList *outList, struct Token *currentBracket) {
     if (currentBracket->bracketType == LEFT_BRACKET) {
         stack_push(operatorStack, currentBracket);

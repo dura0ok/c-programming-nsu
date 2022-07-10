@@ -5,6 +5,7 @@
 #include "data_structures/linked_list.h"
 #include "data_structures/stack.h"
 #include "string.h"
+#include "math.h"
 
 int addition(int a, int b) {
     return a + b;
